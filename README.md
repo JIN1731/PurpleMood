@@ -103,7 +103,6 @@
   * 글 디테일 페이지 댓글 CRUD 가능
   ![localhost_boardList board_cpage=1 (2)](https://user-images.githubusercontent.com/116864859/220266078-0f804c5e-aa1c-40a4-b14d-bed9c20ac3b9.png)
   ![localhost_boardSearchList board_cpage=2 boardSearchOption=b_title boardSearchWord=1234](https://user-images.githubusercontent.com/116864859/220266167-31a7f85a-ee2a-42cb-a70a-9562c96e2976.png)
-  
   ![localhost_board_insertBoardContents jsp (2)](https://user-images.githubusercontent.com/116864859/220269388-0b954452-b02d-423b-b0bd-e6d46b2218f5.png)
 ![localhost_selectBoardContents board_b_seq=144 (1)](https://user-images.githubusercontent.com/116864859/220273175-bd2812cb-22ff-468a-85dd-28485fb76e38.png)
 ![localhost_beforeUpdateBoardContents board_b_seq=144](https://user-images.githubusercontent.com/116864859/220269542-7d62c2c6-415e-4806-9a16-fd7584173d4e.png)
@@ -129,6 +128,7 @@
 <br>
 
 * 관리자페이지
+
   ![관리 페이지](https://user-images.githubusercontent.com/116864859/220266735-e58fa67e-857a-4d83-a0e3-143250def684.png)
 
 
