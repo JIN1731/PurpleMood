@@ -70,27 +70,37 @@
 > 화면 구성
 
 * 메인
+  * 메인 페이지 캐러셀, OTT별 작품 페이지로 이동하는 버튼, 인기/최신 작품력출력
 ![퍼플무드 메인 페이지 소개 gif](https://user-images.githubusercontent.com/116864859/220265170-7224fdcc-460e-4af1-9c62-a3c6770e2cd7.gif)
 
 <br>
 
+* 메뉴바
+  * 로그인/비로그인/관리자 메뉴 다르게 출력
+![메뉴바](https://user-images.githubusercontent.com/116864859/220266861-e6d2ed21-a918-4948-9c8c-b8d659d29736.png)
+
+<br>
+
 * OTT별 페이지
-![OTT별 페이지](https://user-images.githubusercontent.com/116864859/220265306-50c5b8eb-d795-4911-a0cc-409f20d6deb0.png)
+  ![OTT별 페이지](https://user-images.githubusercontent.com/116864859/220265306-50c5b8eb-d795-4911-a0cc-409f20d6deb0.png)
 
 <br>
 
 * 작품 검색 페이지
-![검색 페이지](https://user-images.githubusercontent.com/116864859/220265486-262750b9-2754-4783-ae95-8cf433aa9c74.png)
+  ![검색 페이지](https://user-images.githubusercontent.com/116864859/220265486-262750b9-2754-4783-ae95-8cf433aa9c74.png)
 
 <br>
 
 * 작품 상세 페이지
-![상세 페이지](https://user-images.githubusercontent.com/116864859/220265725-57b8067e-34cc-4805-b80e-9ccc0f93502a.png)
+  ![상세 페이지](https://user-images.githubusercontent.com/116864859/220265725-57b8067e-34cc-4805-b80e-9ccc0f93502a.png)
 
 <br>
 
 * 게시판
-  * 게시판 검색 결과 페이징
+  * 게시판 페이징 Back에서 구현, 검색 기능 분류별로 가능, 게시판 검색 결과도 페이징
+  * 글 작성 summernoteAPI 사용(이미지 업로드 가능), 옵션 분류
+  * 글 수정 시 기존 값(옵션 값도) 출력 후 수정
+  * 글 디테일 페이지 댓글 CRUD 가능
   ![localhost_boardList board_cpage=1 (2)](https://user-images.githubusercontent.com/116864859/220266078-0f804c5e-aa1c-40a4-b14d-bed9c20ac3b9.png)
   ![localhost_boardSearchList board_cpage=2 boardSearchOption=b_title boardSearchWord=1234](https://user-images.githubusercontent.com/116864859/220266167-31a7f85a-ee2a-42cb-a70a-9562c96e2976.png)
   
@@ -99,26 +109,26 @@
 ![localhost_beforeUpdateBoardContents board_b_seq=144](https://user-images.githubusercontent.com/116864859/220269542-7d62c2c6-415e-4806-9a16-fd7584173d4e.png)
 
 * 로그인
-![로그인](https://user-images.githubusercontent.com/116864859/220266338-6488bad5-a2d5-45e6-914a-d11744908e1e.jpg)
+  ![로그인](https://user-images.githubusercontent.com/116864859/220266338-6488bad5-a2d5-45e6-914a-d11744908e1e.jpg)
 
 <br>
 
 * 회원가입
-![localhost_mypageMemInfo member (1)](https://user-images.githubusercontent.com/116864859/220266453-2073c022-5145-446a-a952-37222235d667.png)
+  * 아이디 중복, 유효성 검사 실시
+  ![localhost_mypageMemInfo member (1)](https://user-images.githubusercontent.com/116864859/220266453-2073c022-5145-446a-a952-37222235d667.png)
 
 <br>
 
 * 마이페이지
-![localhost_mypageMemInfo member (1)](https://user-images.githubusercontent.com/116864859/220266605-5d7a3afb-2cd8-4919-a788-aa1f5380010c.png)
-![localhost_member_mypage jsp (2)](https://user-images.githubusercontent.com/116864859/220266623-1722995f-abad-4dda-9fb8-57d2cee3cd62.png)
+  * 수정 시 기존 값 출력 후 수정
+  * 아이디 중복, 유효성 검사 실시
+  * 내가 쓴 글/댓글 확인 가능 클릭 시 글로 이동
+  ![localhost_mypageMemInfo member (1)](https://user-images.githubusercontent.com/116864859/220266605-5d7a3afb-2cd8-4919-a788-aa1f5380010c.png)
+  ![localhost_member_mypage jsp (2)](https://user-images.githubusercontent.com/116864859/220266623-1722995f-abad-4dda-9fb8-57d2cee3cd62.png)
 
 <br>
 
 * 관리자페이지
-![관리 페이지](https://user-images.githubusercontent.com/116864859/220266735-e58fa67e-857a-4d83-a0e3-143250def684.png)
+  ![관리 페이지](https://user-images.githubusercontent.com/116864859/220266735-e58fa67e-857a-4d83-a0e3-143250def684.png)
 
-<br>
-
-* 메뉴바
-![메뉴바](https://user-images.githubusercontent.com/116864859/220266861-e6d2ed21-a918-4948-9c8c-b8d659d29736.png)
 
